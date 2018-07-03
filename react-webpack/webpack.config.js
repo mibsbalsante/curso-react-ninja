@@ -4,6 +4,7 @@ const path = require('path')
 const webpack = require('webpack')
 
 module.exports = {
+  mode: 'development',
   devtool: 'source-map',
   entry: [
     'webpack-dev-server/client?http://localhost:3000',
